@@ -60,7 +60,7 @@ async function handleSubmit() {
         <input
           v-model="firstName"
           type="text"
-          placeholder="lastname"
+          placeholder="Last Name"
           required
         />
       </div>
@@ -68,7 +68,7 @@ async function handleSubmit() {
         <input
           v-model="lastName"
           type="text"
-          placeholder="firstname"
+          placeholder="First Name"
           required
         />
       </div>
@@ -79,7 +79,7 @@ async function handleSubmit() {
         <input
           v-model="password"
           type="password"
-          placeholder="password"
+          placeholder="*******"
           required
         />
       </div>
